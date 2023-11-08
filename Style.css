@@ -1,0 +1,276 @@
+
+body, .positionNavRod{
+    font-family: 'Roboto', sans-serif;
+    padding-right: 90px;
+    padding-left: 80px;
+    margin-left: 60px;
+    margin-right:120px;
+    text-align: justify;
+    display:grid;
+    font-family: 'Edu TAS Beginner', cursive;
+font-family: 'Roboto', sans-serif;
+    }
+    a{
+        text-decoration: none;
+    }
+.imglogo img{
+    position:relative;
+}
+.textlogo h1{
+    text-decoration:none;
+    position: relative;
+    color:#66CDAA;
+    top: -52px;
+    left: 40px;
+}
+.textlogo span{
+    color: hsl(0,0%,66%);
+}
+ul li{
+    display: inline-block;
+    text-align: right;
+}
+.navRod ul li a span{
+    color:#66CDAA;
+}
+.navRod ul li a{
+    color: hsl(0,0%,66%);   
+}
+.positionNavRod nav{
+position: relative;
+top: -105px;
+left:420px;
+}
+.navRod{
+    word-spacing: 9px;
+    
+}
+.navRod span{
+    word-spacing: -1px;
+}
+
+.logoAboveText{
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+}
+.littletitle{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 45px;
+    color:#66CDAA;
+}
+.text{
+    color:#808080;
+}
+.textOne{
+    
+    width: 50%;
+    float:left;
+    padding-right: 25px;
+    padding-bottom: 50px;
+}
+
+.containerText{
+    text-align: justify;
+}
+.columnJustify{
+    display: flex;
+    justify-content: space-between;
+    column-count: 3;
+    
+}
+.columnJustify h1{
+    font-size:medium;
+}
+.insideone h1, .insideone p{
+    font-size: large;
+    line-height: 9px;
+}
+.insideone,
+.insidetwo,
+.insidethree{
+    padding-right:50px;
+    border-radius:  5px;;
+    border-style:groove;
+}
+.insideone p,
+.insidetwo p,
+.insidethree p{
+    line-height: 23.5px;
+    padding-block-end: 80px;
+}
+.insideone h1,
+.insidetwo h1,
+.insidethree h1{
+   margin-block: 36px;
+   
+}
+.insideone h1,
+.insideone p,
+.insidetwo h1,
+.insidetwo p,
+.insidethree h1,
+.insidethree p{
+    padding-left: 25px;
+}
+.col-3-1{
+    background-color: #66CDAA;
+}
+.insideone{
+    color: #FFFAFA;
+    background-color:#66CDAA;
+    border:#66CDAA;;
+}
+.col-3-2{
+    background-color: #4169E1;
+}
+.insidetwo{
+    color: #FFFFFF;
+    background-color: #4169E1;
+    border:solid  #4169E1;
+}
+.col-3-3{
+    background-color:rgb(52, 50, 50);
+}
+.insidethree{
+    color: #FFFFFF;
+    background-color: rgb(52, 50, 50);
+    border:solid rgb(52, 50, 50);
+}
+#select{
+   border:hidden;
+   border-color: white;
+   width: 20px;
+   background-color: transparent;
+}
+label a{
+   padding-left: 15px;
+   color: #FFFAFA;
+    text-decoration: underline;
+}
+
+.textThree{
+    padding-top: 20px;
+    display: flex;
+    justify-content:right;
+}
+.logolien{
+    padding-top: 20px;
+    padding-left: 150px;
+    display:flex;
+    word-spacing: 10px;
+    justify-content:flex-start;
+    flex-wrap:wrap;
+}
+.logolien a img{
+    filter:grayscale(100%);
+}
+.logolien a p{
+    color:#808080;
+    padding-right: 60px;
+}
+.legend{
+    color: #66CDAA;
+    word-spacing: 30px;
+}
+.txtlogo2, .txtlogo3,.txtlogo4,.txtlogo5,.txtlogo6{
+    padding-right: 91px;
+    position: relative;
+    bottom: 45px;
+    left:33px;
+}
+.txtlogo7,.txtlogo8,.txtlogo9,.txtlogo10{
+    padding-right: 71px;
+    position: relative;
+    bottom: 45px;
+    left:33px;
+}
+.textfive{
+    color: black;
+    font-weight: bolder ;
+}
+.textfive p{
+    color: black;
+}
+.littleBox1 h1, .littleBox2 h1, .littleBox3 h1, .littleBox4 h1{
+    font-size: medium;
+    color: #66CDAA;
+}
+.colorback{    
+    background-color: #66CDAA;
+    opacity: 0.6;
+    display: grid;
+    justify-content: space-between;
+}
+.boxes{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left:380px;
+    padding-block-end: 5px;
+    padding-right: 10px;
+    
+}
+.littleBox1, .littleBox2,.littleBox3, .littleBox4{
+    border-radius: 10px;
+    border-style: ridge;
+    flex-wrap: wrap;
+    background-color: #F8F8FF;
+    padding-left:2px;
+    justify-content: space-between;
+    padding-block-end: 10px;
+    margin-block: 5px;
+    text-align: center;
+    background-color: white;
+}
+.littlebox1{
+    padding-top: 10px;
+}
+.textFour h1{
+text-align: center;
+color: #66CDAA;
+}
+.textFour p{
+    text-align: center;
+    color:#808080;
+}
+.imgcountry{
+justify-content: space-between;
+display:flex;
+flex-wrap: wrap;
+row-gap:  40px;
+}
+.figtext{
+    padding-left:15px;
+}
+.figborder{
+    font-size: small;
+    font-weight: bolder ;
+    position: relative;
+    bottom: 17px;
+    display: flex;
+    justify-content: flex-end;    
+}
+.TF{
+    text-align: center;
+}
+.textFinal p{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
+}
+.border{
+    border-style: groove;
+    display: inline-block;
+    position: relative;
+    left: 35%;
+    background-color:#4169E1;
+    border-color: #4169E1;
+    border: hidden;
+}
+.border p{
+    padding-left: 5%;
+    padding-right:5%;
+    color:white;
+}
